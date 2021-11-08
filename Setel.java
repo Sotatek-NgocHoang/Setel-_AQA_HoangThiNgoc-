@@ -42,13 +42,11 @@ public class SignInTest {
         }
 
         List<WebElement> vs = driver.findElements(By.className("s-item__pl-on-bottom"));
-        //System.out.println(vs.size());
+
 
 
         return vs;
 
-        //Thread.sleep(2000);
-        //driver.quit();
 
     }
 
@@ -72,7 +70,7 @@ public class SignInTest {
 
 
         List<WebElement> ng = driver.findElements(By.className("s-asin"));
-        //System.out.println(ng.size());
+
 
 
         return ng;
@@ -93,7 +91,7 @@ public class SignInTest {
             for (WebElement tg1 : hoa) {
                 tg6.name = tg1.getText();
                 break;
-                //System.out.println(tg1.getText());
+   
 
             }
 
@@ -103,13 +101,11 @@ public class SignInTest {
 
                 tg6.price = changeprice(tg2.getText());
 
-                // System.out.println(tg2.getText());
+ 
             }
 
             arrayList.add(tg6);
 
-            // Thread.sleep(2000);
-            // driver.quit();
 
         }
 
