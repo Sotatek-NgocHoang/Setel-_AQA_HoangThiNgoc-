@@ -19,8 +19,6 @@ class Webs {
 
 public class SignInTest {
     private WebDriver driver;
-    public String name = "";
-    public String price = "";
 
     @Test
     public List<WebElement> testBase() throws InterruptedException {
